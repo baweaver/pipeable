@@ -1,3 +1,12 @@
+# DEPRECATED
+
+This gem is being re-purposed by another Rubyist, and this repository is kept for historical reasons. If you want this functionality you can find it with the `then` method:
+
+```ruby
+1.then { "I can pipe with #{_1}!" }
+# => "I can pipe with 1!
+```
+
 # Pipeable
 
 A play at Unix Piping in Ruby for kicks. It helps to break up some more exotic logic and chaining. 
